@@ -1,8 +1,8 @@
 Package: cmstatrExt
 Type: Package
 Title: More Statistical Methods for Composite Material Data
-Version: 0.4.0
-Date: 2024-05-05
+Version: 0.4.1
+Date: 2026-03-17
 Authors@R: c(
     person("Stefan", "Kloppenborg", email = "stefan@kloppenborg.ca",
       role = c("aut", "cre"))
@@ -20,7 +20,7 @@ Imports: dplyr, generics, Rcpp, rlang (>= 0.4.0), stats
 LinkingTo: Rcpp, testthat
 SystemRequirements: C++17
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 Suggests: cmstatr, testthat (>= 3.0.0), tidyverse, lintr, xml2,
         rmarkdown, knitr
 Config/testthat/parallel: true
@@ -29,8 +29,8 @@ VignetteBuilder: knitr
 Depends: R (>= 2.10)
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2024-05-07 02:59:10 UTC; stefan
+Packaged: 2026-03-18 03:23:48 UTC; stefan
 Author: Stefan Kloppenborg [aut, cre]
 Maintainer: Stefan Kloppenborg <stefan@kloppenborg.ca>
 Repository: CRAN
-Date/Publication: 2024-05-07 14:50:05 UTC
+Date/Publication: 2026-03-18 03:40:02 UTC
